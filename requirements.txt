@@ -1,5 +1,3 @@
 black
 pylint
-openai
 os
-click
