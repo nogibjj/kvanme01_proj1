@@ -9,3 +9,6 @@ In the spirit of the WNBA 2022 Finals, this project aims to explore the Kaggle d
 
 Exploratory data analysis was first conducted in Jupyter Notebooks using the Kaggle API. Python packages pandas and seaborn were utilized to analyze the dataset in the form of dataframes and tables. The dataset was then tranfered from a kvanme01 repository to the codespace-enabled nogibjj/kvanme01 repository via .csv file. 
 
+team_maker.py contains a simple CLI using click that takes in User's requested team name and generates a random list of 5 wnba players from the database to constitute a "starting lineup". 
+
+I plan to continue adding to this command line tool to allow the user to add to their roster based on the players stats, years they played, college/ professional team etc. (all data from the Kaggle dataset). 
